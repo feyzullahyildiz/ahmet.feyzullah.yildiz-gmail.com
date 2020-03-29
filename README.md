@@ -7,5 +7,6 @@ this repo allows you to use docker via jenkins, with no permission error.
 - clone this repo `git clone https://github.com/feyzullahyildiz/jenkins-manages-host-docker.git`
 - go to the repo path `cd jenkins-manages-host-docker`
 - create the jenkins volume folder `mkdir jenkins_home`
+- let other can write jenkins_home `chmod o+w jenkins_home`
 - start the compose file `docker-compose up`
 - then it should start at port 8080.
